@@ -1,0 +1,24 @@
+html {
+  height:100%;
+  font-size:62.5%
+}
+
+body {
+  height:100%;
+  background-color:$off-black;
+  font-family:Helvetica,Arial,sans-serif;
+}
+
+.router__container {
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#root {
+  height:100%;
+
+}

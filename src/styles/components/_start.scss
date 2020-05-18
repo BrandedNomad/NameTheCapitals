@@ -1,0 +1,58 @@
+
+.start-container {
+  height: 100%;
+  width:50%;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.start-container__button {
+
+  width:90%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  background-color:$purple;
+  border-bottom: 1px solid darken($purple,10%);
+
+}
+
+.start-container__button:hover {
+  background-color:$off-white;
+  color:$dark-blue;
+
+}
+
+
+.start-text {
+  font-size:$l-size;
+  color:white;
+  text-align:center;
+  margin:0;
+  padding:$m-size;
+  width:100%
+}
+
+.start-text:hover {
+  color:$dark-blue;
+  cursor:pointer;
+}
+.start-text:active{
+  color:$purple;
+  cursor:pointer;
+}
+
+
+.start-title {
+  color: white;
+  font-size:5rem;
+  font-family:"Trebuchet MS",Arial,sans-serif;
+}
+
+.start-image {
+  width:80%
+}

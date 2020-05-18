@@ -1,0 +1,56 @@
+.results-text {
+  color: white;
+  font-size:10rem;
+  font-family:"Trebuchet MS",Arial,sans-serif;
+  margin:$s-size;
+
+}
+
+.results-display {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+//Restart button
+.restart__button {
+
+  width:100%;
+  margin: $l-size auto;
+  display:flex;
+  justify-content: center;
+  background-color:$purple;
+  border-bottom: 1px solid darken($purple,10%);
+
+}
+
+.restart__button:hover {
+  background-color:$off-white;
+  color:$dark-blue;
+
+}
+
+
+.restart-text {
+  font-size:$l-size;
+  color:white;
+  text-align:center;
+  margin:0;
+  padding:$m-size;
+  width:100%
+}
+
+.restart-text:hover {
+  color:$dark-blue;
+  cursor:pointer;
+}
+.restart-text:active{
+  color:$purple;
+  cursor:pointer;
+}
+
+
+
+
+

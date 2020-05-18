@@ -1,0 +1,24 @@
+.nfp-container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.nfp-code {
+  font-size: 10rem ;
+  color:white;
+  margin:0;
+}
+
+.nfp-text {
+  color:white;
+  font-size:$l-size;
+  display:inline;
+}
+
+.nfp-link {
+  font-size:$l-size;
+  color:$off-white;
+}
